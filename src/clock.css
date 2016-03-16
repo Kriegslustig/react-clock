@@ -1,0 +1,22 @@
+.clock {
+  position: relative;
+  width: 100vh;
+  height: 100vh;
+}
+
+.clock__hand {
+  position: absolute;
+  top: 25vh;
+  left: 25vh;
+}
+
+.clock__hand::before {
+  content: '';
+  background-color: hsl(0, 0%, 0%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  width: 10px;
+}
+
